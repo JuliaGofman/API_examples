@@ -22,8 +22,3 @@ with open ('dataset_24476_3.txt') as file:
         data = res.json()
 
         [print('Interesting') if data['found'] else print('Boring')]
-
-# if data['found'] is True:
-#     print('Interesting')
-# else:
-#     print('Boring')
